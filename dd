@@ -1,0 +1,809 @@
+
+PM> .\Setup.ps1
+Compiling UI components ..
+Compilieng @thermo/vue-tfc ..
+npm : npm WARN saveError EPERM: operation not permitted, rename 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc\package-lock.json.1801530643' -> 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc\package-lock.json'
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:6 char:1
++ npm install
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN saveEr...kage-lock.json':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm
+ WARN vue-tfc@0.1.0 No repository field.
+
+npm
+ WARN
+ vue-tfc@0.1.0 No license field.
+
+npm
+ WARN optional
+ SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+
+npm
+ 
+WARN
+ 
+notsup
+ SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+
+audited 31202 packages in 7.446s
+found 1054 vulnerabilities (71 low, 24 moderate, 959 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> vue-tfc@0.1.0 build C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc
+> rimraf dist && cross-env NODE_ENV=production rollup -c
+
+npm : 
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:7 char:1
++ npm run build
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+src/index.js ΓåÆ dist/vue-tfc.js...
+
+created dist/vue-tfc.js in 9s
+
+npm : npm WARN saveError EPERM: operation not permitted, rename 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc\package-lock.json.1124037167' -> 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc\package-lock.json'
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:8 char:1
++ npm link
++ ~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN saveEr...kage-lock.json':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm
+ WARN
+ vue-tfc@0.1.0 No repository field.
+
+npm
+ 
+WARN
+ vue-tfc@0.1.0 No license field.
+
+npm
+ WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+
+npm
+ WARN
+ 
+notsup
+ SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+
+audited 31202 packages in 7.431s
+found 1054 vulnerabilities (71 low, 24 moderate, 959 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+C:\Users\enduser\AppData\Roaming\npm\node_modules\vue-tfc -> C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc
+Compilieng @thermo/vue-tng ..
+npm : npm WARN saveError EPERM: operation not permitted, rename 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng\package-lock.json.3950077028' -> 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng\package-lock.json'
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:12 char:1
++ npm install
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN saveEr...kage-lock.json':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm
+ 
+WARN
+ vue-tng@0.1.0 No repository field.
+
+npm
+ 
+WARN
+ vue-tng@0.1.0 No license field.
+
+npm
+ WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+
+npm
+ 
+WARN
+ 
+notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+
+audited 31160 packages in 7.434s
+found 1042 vulnerabilities (71 low, 19 moderate, 952 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> vue-tng@0.1.0 build C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng
+> rimraf dist && cross-env NODE_ENV=production rollup -c
+
+npm : 
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:13 char:1
++ npm run build
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+src/index.js ΓåÆ dist/vue-tng.js...
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\select.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\selectAll.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\filter.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\data.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\data.js -> node_modules\d3-selection\src\selection\enter.js -> 
+node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\exit.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\merge.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-selection\src\selection\index.js -> node_modules\d3-selection\src\selection\sort.js -> node_modules\d3-selection\src\selection\index.js
+
+(!) Circular dependency: node_modules\d3-interpolate\src\value.js -> node_modules\d3-interpolate\src\array.js -> node_modules\d3-interpolate\src\value.js
+
+(!) Circular dependency: node_modules\d3-interpolate\src\value.js -> node_modules\d3-interpolate\src\object.js -> node_modules\d3-interpolate\src\value.js
+
+(!) Circular dependency: node_modules\d3-transition\src\transition\index.js -> node_modules\d3-transition\src\transition\filter.js -> 
+node_modules\d3-transition\src\transition\index.js
+
+(!) Circular dependency: node_modules\d3-transition\src\transition\index.js -> node_modules\d3-transition\src\transition\merge.js -> 
+node_modules\d3-transition\src\transition\index.js
+
+(!) Circular dependency: node_modules\d3-transition\src\transition\index.js -> node_modules\d3-transition\src\transition\select.js -> 
+node_modules\d3-transition\src\transition\index.js
+
+(!) Circular dependency: node_modules\d3-transition\src\transition\index.js -> node_modules\d3-transition\src\transition\selectAll.js -> 
+node_modules\d3-transition\src\transition\index.js
+
+(!) Circular dependency: node_modules\d3-transition\src\transition\index.js -> node_modules\d3-transition\src\transition\transition.js -> 
+node_modules\d3-transition\src\transition\index.js
+
+(!) Circular dependency: node_modules\d3-voronoi\src\Diagram.js -> node_modules\d3-voronoi\src\Beach.js -> node_modules\d3-voronoi\src\Cell.js -> 
+node_modules\d3-voronoi\src\Edge.js -> node_modules\d3-voronoi\src\Diagram.js
+
+(!) Circular dependency: node_modules\d3-voronoi\src\Diagram.js -> node_modules\d3-voronoi\src\Beach.js -> node_modules\d3-voronoi\src\Cell.js -> 
+node_modules\d3-voronoi\src\Diagram.js
+
+(!) Circular dependency: node_modules\d3-voronoi\src\Diagram.js -> node_modules\d3-voronoi\src\Beach.js -> node_modules\d3-voronoi\src\Circle.js -> 
+node_modules\d3-voronoi\src\Diagram.js
+
+(!) Circular dependency: node_modules\d3-voronoi\src\Diagram.js -> node_modules\d3-voronoi\src\Beach.js -> node_modules\d3-voronoi\src\Diagram.js
+
+created dist/vue-tng.js in 7.1s
+
+npm : npm WARN saveError EPERM: operation not permitted, rename 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng\package-lock.json.467176271' -> 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng\package-lock.json'
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:14 char:1
++ npm link
++ ~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN saveEr...kage-lock.json':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm
+ WARN vue-tng@0.1.0 No repository field.
+
+npm
+ 
+WARN
+ vue-tng@0.1.0 No license field.
+
+npm
+ WARN
+ 
+optional
+ SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+
+npm
+ 
+WARN
+ 
+notsup
+ SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+
+audited 31160 packages in 7.363s
+found 1042 vulnerabilities (71 low, 19 moderate, 952 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+C:\Users\enduser\AppData\Roaming\npm\node_modules\vue-tng -> C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng
+Setting up Electron Client environment..
+npm : npm WARN saveError EPERM: operation not permitted, rename 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.ElectronClient\package.json.1989099475' -> 
+'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.ElectronClient\package.json'
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:18 char:1
++ npm install
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN saveEr...t\package.json':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+audited 1248 packages in 2.019s
+found 0 vulnerabilities
+
+Setting up UI code build environment ..
+npm : npm WARN @babel/helper-create-class-features-plugin@7.5.0 requires a peer of @babel/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:22 char:1
++ npm install
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm WARN @babel...ncies yourself.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm
+ WARN
+ @babel/plugin-transform-named-capturing-groups-regex@7.4.5 requires a peer of @babel/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm WARN
+ @intervolga/optimize-cssnano-plugin@1.0.6 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm
+ 
+WARN
+ babel-loader@8.0.6 requires a peer of @babel/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm 
+WARN
+ @vue/preload-webpack-plugin@1.1.0 requires a peer of webpack@>=4.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm 
+WARN
+ ajv-keywords@2.1.1 requires a peer of ajv@^5.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm 
+WARN
+ mini-css-extract-plugin@0.4.5 requires a peer of webpack@^4.4.0 but none is installed. You must install peer dependencies yourself.
+
+npm
+ 
+WARN
+ terser-webpack-plugin@1.3.0 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm 
+WARN
+ vue-loader@15.7.0 requires a peer of webpack@^4.1.0 || ^5.0.0-0 but none is installed. You must install peer dependencies yourself.
+
+npm 
+WARN
+ webpack-dev-middleware@3.7.0 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+
+npm
+ WARN optional
+ SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+
+npm
+ 
+WARN 
+notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+
+
+removed 2 packages and audited 45898 packages in 15.559s
+found 78 vulnerabilities (65 low, 4 moderate, 8 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+> thermo.tng.web-me.ui@0.1.0 build C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI
+> npm run setup & node build/build.js
+
+
+> thermo.tng.web-me.ui@0.1.0 setup C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI
+> npm link vue-tfc & npm link vue-tng
+
+C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-tfc -> C:\Users\enduser\AppData\Roaming\npm\node_modules\vue-tfc -> C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tfc
+C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-tng -> C:\Users\enduser\AppData\Roaming\npm\node_modules\vue-tng -> C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.Web.UICommon\vue-tng
+[copy-webpack-plugin] WARNING - unable to locate 'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\static' at 'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\static'
+Hash: [1m13fd0ba012a6bfe870a8[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m21785[39m[22mms
+                                                  [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                       [1m[32mstatic/fonts/thermo.f2fcbc5.woff[39m[22m    49.9 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ [1m[32mstatic/fonts/glyphicons-halflings-regular.fa27723.woff[39m[22m    23.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[1m[32mstatic/fonts/glyphicons-halflings-regular.448c34a.woff2[39m[22m      18 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+  [1m[32mstatic/fonts/glyphicons-halflings-regular.f4769f9.eot[39m[22m    20.1 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+  [1m[32mstatic/fonts/glyphicons-halflings-regular.e18bbf6.ttf[39m[22m    45.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/fonts/fa-solid-900.b5cf8ae.woff2[39m[22m    75.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[33mstatic/img/fa-solid-900.b557f56.svg[39m[22m     [1m[33m839 kB[39m[22m        [1m[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  
+                  [1m[32mstatic/fonts/fa-solid-900.acf50f5.ttf[39m[22m     192 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                 [1m[32mstatic/fonts/fa-brands-400.03783c5.eot[39m[22m     129 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/fonts/fa-regular-400.fc9c63c.eot[39m[22m    34.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/fonts/fa-brands-400.fe9d62e.woff[39m[22m    87.4 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                  [1m[32mstatic/fonts/fa-solid-900.ef3df98.eot[39m[22m     192 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                 [1m[32mstatic/fonts/fa-solid-900.4bced7c.woff[39m[22m      98 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mstatic/fonts/fa-regular-400.e5770f9.woff[39m[22m    16.8 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+              [1m[32mstatic/fonts/fa-regular-400.e07d9e4.woff2[39m[22m    13.6 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                  [1m[32mstatic/img/fa-regular-400.8fdea4e.svg[39m[22m     144 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/fonts/fa-regular-400.5921503.ttf[39m[22m    34.1 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                 [1m[32mstatic/fonts/fa-brands-400.ed2b8bf.ttf[39m[22m     129 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mstatic/fonts/fa-brands-400.7559b37.woff2[39m[22m    74.5 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                   [1m[33mstatic/img/fa-brands-400.073c2f3.svg[39m[22m     [1m[33m690 kB[39m[22m        [1m[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  
+    [1m[32mstatic/img/glyphicons-halflings-regular.8988968.svg[39m[22m     109 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mstatic/js/0.933a6e795b4e48a50b46.js[39m[22m  572 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mstatic/js/1.cc50c2714248cf3811e4.js[39m[22m  574 bytes       [1m1[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mstatic/js/2.b9748331f36bc99f3112.js[39m[22m  574 bytes       [1m2[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mstatic/js/3.e4e7f4504e6419e3d139.js[39m[22m  572 bytes       [1m3[39m[22m  [1m[32m[emitted][39m[22m         
+                    [1m[32mstatic/js/4.ab9647ef51023eaca524.js[39m[22m  572 bytes       [1m4[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mstatic/js/vendor.f0b6d6fb07d09b816709.js[39m[22m     241 kB       [1m5[39m[22m  [1m[32m[emitted][39m[22m         vendor
+                  [1m[33mstatic/js/app.0b38b66c881e78869d54.js[39m[22m     [1m[33m856 kB[39m[22m       [1m6[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  app
+             [1m[32mstatic/js/manifest.f233988d6a345a20496f.js[39m[22m    1.56 kB       [1m7[39m[22m  [1m[32m[emitted][39m[22m         manifest
+               [1m[32mapp.769a8abbf8db96c783bce09f3c6938fe.css[39m[22m     202 kB       [1m6[39m[22m  [1m[32m[emitted][39m[22m         app
+           [1m[32mapp.769a8abbf8db96c783bce09f3c6938fe.css.map[39m[22m     303 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/js/0.933a6e795b4e48a50b46.js.map[39m[22m  112 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/js/1.cc50c2714248cf3811e4.js.map[39m[22m  112 bytes       [1m1[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/js/2.b9748331f36bc99f3112.js.map[39m[22m  112 bytes       [1m2[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/js/3.e4e7f4504e6419e3d139.js.map[39m[22m  112 bytes       [1m3[39m[22m  [1m[32m[emitted][39m[22m         
+                [1m[32mstatic/js/4.ab9647ef51023eaca524.js.map[39m[22m  112 bytes       [1m4[39m[22m  [1m[32m[emitted][39m[22m         
+           [1m[32mstatic/js/vendor.f0b6d6fb07d09b816709.js.map[39m[22m     1.5 MB       [1m5[39m[22m  [1m[32m[emitted][39m[22m         vendor
+              [1m[32mstatic/js/app.0b38b66c881e78869d54.js.map[39m[22m    3.34 MB       [1m6[39m[22m  [1m[32m[emitted][39m[22m         app
+         [1m[32mstatic/js/manifest.f233988d6a345a20496f.js.map[39m[22m    7.94 kB       [1m7[39m[22m  [1m[32m[emitted][39m[22m         manifest
+                                             [1m[32mindex.html[39m[22m  600 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                                   [1m[32mindex-app-cloud.html[39m[22m  774 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+
+[1m[33mWARNING in ./src/pages/editor/design-experiments/DesignExperiments.vue
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:111:17
+                  console.log('Drag Item - ', JSON.stringify(item))
+                   ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:147:17
+                  console.log(method)
+                   ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'e' is defined but never used                  
+  src\pages\editor\design-experiments\DesignExperiments.vue:158:25
+              onDropItems(e) {
+                           ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:173:21
+                      console.log(graph)
+                       ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'cellType' is assigned a value but never used  
+  src\pages\editor\design-experiments\DesignExperiments.vue:179:37
+                                  let cellType = cell.attrs.body.type
+                                       ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:221:17
+                  console.log(method)
+                   ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:275:21
+                      console.log(graph)
+                       ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-redeclare    'i' is already defined                         
+  src\pages\editor\design-experiments\DesignExperiments.vue:516:30
+                      for (var i = 0; i < sorters.length; i++) {
+                                ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-redeclare    'i' is already defined                         
+  src\pages\editor\design-experiments\DesignExperiments.vue:533:34
+                          for (var i = 0; i < filters.length; i++) {
+                                    ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-redeclare    'i' is already defined                         
+  src\pages\editor\design-experiments\DesignExperiments.vue:544:30
+                      for (var i = 0; i < children.length; i++) {
+                                ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement                   
+  src\pages\editor\design-experiments\DesignExperiments.vue:574:17
+                  console.log(this.selection[0].attr('dataItem/params'))
+                   ^
+
+
+Γ£ÿ 11 problems (11 errors, 0 warnings)
+
+
+Errors:
+  6  http://eslint.org/docs/rules/no-console
+  3  http://eslint.org/docs/rules/no-redeclare
+  2  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/pages/editor/routes.js 19:23-75
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/pages/home/routes.js
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-undef  'LoadingView' is not defined       
+  src\pages\home\routes.js:11:22
+              loading: LoadingView,
+                        ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-undef  'LoadingViewError' is not defined  
+  src\pages\home\routes.js:12:20
+              error: LoadingViewError,
+                      ^
+
+
+Γ£ÿ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-undef
+ @ ./src/router/index.js 4:0-45
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/pages/editor/define-properties/DefineProperties.vue
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'clone' is defined but never used  
+  src\pages\editor\define-properties\DefineProperties.vue:9:24
+      import { throttle, clone } from 'lodash'
+                          ^
+
+
+Γ£ÿ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/pages/editor/routes.js 8:23-73
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/pages/home/Home.vue
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'methodAPI' is defined but never used  
+  src\pages\home\Home.vue:31:12
+      import methodAPI from '@/api/method-api'
+              ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-console      Unexpected console statement           
+  src\pages\home\Home.vue:98:25
+                          console.log(e)
+                           ^
+
+
+Γ£ÿ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-console
+  1  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/router/index.js 3:0-41
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/store/modules/method.js
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'response' is defined but never used  
+  src\store\modules\method.js:43:19
+              .then(response => {
+                     ^
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'state' is defined but never used     
+  src\store\modules\method.js:79:26
+      [types.CLOSE_METHOD](state) {
+                            ^
+
+
+Γ£ÿ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/store/index.js 6:0-38
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/store/plugins/autoSaver.js
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'state' is defined but never used  
+  src\store\plugins\autoSaver.js:15:32
+      store.subscribe((mutation, state) => {
+                                  ^
+
+
+Γ£ÿ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/store/index.js 5:0-44
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/App.vue
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'values' is defined but never used  
+  src\App.vue:27:23
+                  .then(values => { this.initializing = false })
+                         ^
+
+
+Γ£ÿ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/main.js 19:0-28[39m[22m
+
+[1m[33mWARNING in ./src/pages/editor/Editor.vue
+
+  Γ£ÿ  http://eslint.org/docs/rules/no-unused-vars  'values' is defined but never used  
+  src\pages\editor\Editor.vue:128:23
+                  .then(values => {
+                         ^
+
+
+Γ£ÿ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+ @ ./src/router/index.js 5:0-47
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/store/modules/settings.js
+30:19-47 "export 'RECEIVE_SYSTEM_SETTING' (imported as 'types') was not found in '../mutation-types'
+ @ ./src/store/modules/settings.js
+ @ ./src/store/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[33mWARNING in ./src/store/modules/settings.js
+39:36-64 "export 'RECEIVE_SYSTEM_SETTING' (imported as 'types') was not found in '../mutation-types'
+ @ ./src/store/modules/settings.js
+ @ ./src/store/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/review-method/ReviewMethod.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 30:23-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/App.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/main.js 19:0-28[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/Editor.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/router/index.js 5:0-47
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/design-experiments/DesignExperiments.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 19:23-75
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/home/Home.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/router/index.js 3:0-41
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/components/LoadingView.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 1:0-55
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/home/CreateMethod.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/home/routes.js 10:23-51
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/define-properties/DefineProperties.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 8:23-73
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/submit-method/SubmitMethod.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 41:23-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+npm : npm ERR! code ELIFECYCLE
+At C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Setup.ps1:23 char:1
++ npm run build
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm ERR! code ELIFECYCLE:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm ERR! errno 1
+npm ERR! thermo.tng.web-me.ui@0.1.0 build: `npm run setup & node build/build.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the thermo.tng.web-me.ui@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\enduser\AppData\Roaming\npm-cache\_logs\2019-07-16T02_04_34_634Z-debug.log
+
+[1m[31mERROR in ./src/components/LoadingViewError.vue
+
+
+Vue packages version mismatch:
+
+- vue@2.5.17 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue\dist\vue.runtime.common.js)
+- vue-template-compiler@2.6.10 (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-template-compiler\package.json)
+
+This may cause things to work incorrectly. Make sure to use the same version for both.
+If you are using vue-loader@>=10.0, simply update vue-template-compiler.
+If you are using vue-loader@<10.0 or vueify, re-installing vue-loader/vueify should bump vue-template-compiler to the latest.
+
+ @ ./src/pages/editor/routes.js 2:0-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/App.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/main.js 19:0-28[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/review-method/ReviewMethod.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 30:23-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/submit-method/SubmitMethod.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 41:23-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/components/LoadingViewError.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 2:0-65
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/home/CreateMethod.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/home/routes.js 10:23-51
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/define-properties/DefineProperties.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 8:23-73
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/home/Home.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/router/index.js 3:0-41
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/components/LoadingView.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 1:0-55
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/Editor.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/router/index.js 5:0-47
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in ./src/pages/editor/design-experiments/DesignExperiments.vue
+Module build failed: TypeError: Cannot read property 'parseComponent' of undefined
+    at parse (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\@vue\component-compiler-utils\dist\parse.js:14:23)
+    at Object.module.exports (C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\node_modules\vue-loader\lib\index.js:67:22)
+ @ ./src/pages/editor/routes.js 19:23-75
+ @ ./src/router/index.js
+ @ ./src/main.js[39m[22m
+
+[1m[31mERROR in [copy-webpack-plugin] unable to locate 'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\static' at 'C:\Users\enduser\Documents\TNGWebb\TNGWeb\Software\DataSystem\Thermo.TNG.WebME\Thermo.TNG.WebME.UI\static'[39m[22m
+
+  Build failed with errors.
+
+Integrating UI with server code ..
+Press Enter to exit: 
